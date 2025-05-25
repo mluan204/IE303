@@ -1,0 +1,112 @@
+.root {
+    -fx-background-color: #f7f8fa;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.product-list {
+    -fx-background-color: transparent;
+    -fx-padding: 0 0 0 20px;
+}
+
+.product-grid {
+    -fx-hgap: 20px;
+    -fx-vgap: 20px;
+}
+
+.product-card {
+    -fx-background-color: #fff;
+    -fx-padding: 16px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.06), 8, 0, 0, 0);
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-min-width: 220px;
+    -fx-max-width: 220px;
+    -fx-min-height: 180px;
+    -fx-max-height: 220px;
+}
+
+.product-card.selected {
+    -fx-border-color: #2196f3;
+    -fx-border-width: 2px;
+}
+
+.product-card:hover {
+    -fx-background-color: #f0f4fa;
+}
+
+.product-card .product-card-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222;
+}
+
+.product-card .product-card-brand {
+    -fx-font-size: 13px;
+    -fx-text-fill: #888;
+    -fx-font-weight: bold;
+}
+
+.product-card .product-card-desc {
+    -fx-font-size: 13px;
+    -fx-text-fill: #888;
+}
+
+.product-card .product-card-price {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222;
+    -fx-alignment: center-right;
+}
+
+.product-detail {
+    -fx-background-color: #fff;
+    -fx-padding: 32px 24px 32px 32px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.06), 8, 0, 0, 0);
+    -fx-min-width: 400px;
+    -fx-max-width: 500px;
+}
+
+.product-detail-image {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.12), 16, 0, 0, 0);
+    -fx-padding: 0 0 24px 0;
+}
+
+.product-detail-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222;
+    -fx-padding: 16px 0 0 0;
+}
+
+.product-detail-price {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222;
+    -fx-padding: 8px 0 0 0;
+}
+
+.product-detail-brand {
+    -fx-font-size: 15px;
+    -fx-text-fill: #888;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 8px 0;
+}
+
+.product-detail-desc {
+    -fx-font-size: 15px;
+    -fx-text-fill: #888;
+    -fx-padding: 8px 0 0 0;
+}
+
+.fade-transition {
+    -fx-opacity: 0;
+}
+
+.fade-transition:hover {
+    -fx-opacity: 1;
+} 
