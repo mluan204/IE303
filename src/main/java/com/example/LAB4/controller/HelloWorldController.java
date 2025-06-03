@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @GetMapping
     public String helloWorld() {
-        return "Hello World";
+        return "truy cập http://localhost:8080/api/products để xem api lấy danh sách sản phẩm";
     }
 }
